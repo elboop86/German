@@ -38,3 +38,8 @@ window.onscroll = () => {
 }
     });
 }
+
+var reproductor = videojs('fm-video', {
+    fluid:true
+});
+

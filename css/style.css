@@ -357,6 +357,13 @@ span {
     background: var(--second-bg-color);
 }
 
+/*Estilos para el video */
+
+.reproductor {
+    width: 1000px;
+    
+}
+
 /* Section Contact*/
 
 .contact {

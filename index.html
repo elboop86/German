@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web para German</title>
 
+    <!--links para estilo video js-->
+
+    <link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet"/>
+    
+
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- BOX ICONS -->
@@ -83,6 +88,12 @@
   </div>
 </section>
 
+<section class="galery">
+    <video class="reproductor video-js vjs-16-9 vjs-big-play-centred" data-setup="{}" controls id="fm-video">
+        <source src="video/video1.mp4" type="video/mp4">
+    </video>
+</section>
+
 <!-- contact section design -->
 
 <section class="contact" id="contact">
@@ -143,6 +154,7 @@
 </footer>
 
 
-   <script src="js/main.js"></script>  
+   <script src="js/main.js"></script> 
+   <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script> 
 </body>
 </html>
