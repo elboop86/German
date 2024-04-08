@@ -43,3 +43,10 @@ var reproductor = videojs('fm-video', {
     fluid:true
 });
 
+// funcion para que los videos se reproduzcan en la pantalla grande
+
+function reproducirVideo(video) {
+    const reproductor = document.getElementById('reproductor');
+    reproductor.innerHTML = `<video controls><source src="${video}" type="video/mp4">Tu navegador no soporta el elemento de video.</video>`;
+}
+
