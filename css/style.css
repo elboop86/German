@@ -357,27 +357,28 @@ span {
     background: var(--second-bg-color);
 }
 
-/*Estilos para el video */
-
-.reproductor {
-    width: 1000px;
-    
-}
-
 /* Seccion para galary-video*/
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    
 }
 
 .grid-item {
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
-    border: 1px solid black; /* Bordes para cada cuadro */
-    height: 200px; /* Altura de los cuadros */
+    border: 2px solid black;
+    width: 300px; /* Ajusta el ancho del cuadro */
+    height: 300px; /* Ajusta la altura del cuadro */
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 80px;
 }
 
 /* Section Contact*/
